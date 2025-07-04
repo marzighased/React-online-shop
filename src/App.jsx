@@ -7,7 +7,7 @@ class App extends Component {
     render() { 
         return <React.Fragment>
                    <Navbar/>
-                   <div>
+                   <div className='product-container'>
                         <Product/>
                         <Product/>
                         <Product/>
