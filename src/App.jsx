@@ -28,7 +28,7 @@ class App extends Component {
                             <Product onAdd={() => this.addItem(1, 'Äpfel', 3.99)} image="apples.jpg" title="Äpfel"  description="Füge Äpfel zu deinem Warenkorb hin."/>
                             <Product onAdd={() => this.addItem(1, 'Birnen', 4.99)} image="birne.jpg" title="Birnen"  description="Füge Birne zu deinem Warenkorb hin."/>
                         </div>
-                        <ShoppingCart/>
+                        <ShoppingCart items={this.state.items}/>
                    </div>
                </React.Fragment>;
     }
