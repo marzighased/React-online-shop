@@ -10,7 +10,7 @@ class App extends Component {
 
     addItem = (amount, name, price) => {
         let currentItems = this.state.items;
-
+        
         let existingItem = this.state.items.find(item => item.name == name);
         if(existingItem) {
             existingItem.amount++;
